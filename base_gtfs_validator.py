@@ -70,7 +70,7 @@ class BaseGtfsValidator(object):
         # TODO: make less fragile
         :return:
         """
-        return self.source_filename.split('/')[0] + '/tmp'
+        return '/tmp/gtfs_validator_tmp'
 
     def __extract(self):
         unzip(self.source_filename, self._tmp_destination)
