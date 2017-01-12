@@ -1,5 +1,6 @@
 # Simple GTFS Validator
 
+An extremely simple dependency-free Python GTFS validator. So simple it's stupid.
 
 ## Requirements
 
