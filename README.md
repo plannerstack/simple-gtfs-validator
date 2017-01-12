@@ -1,5 +1,6 @@
 # Simple GTFS Validator
 
+An extremely simple dependency-free Python GTFS validator. So simple it's stupid.
 
 ## Requirements
 
@@ -48,13 +49,4 @@ gtfs_files = {
     'trips': None,
     'fare_attributes': None
 }
-```
-
-
-```
-# As the
-GTFS_URL1="http://gtfs.ovapi.nl/new/gtfs-nl.zip"
-wget ${GTFS_URL1} -O gtfs1.zip --tries=5 --timeout=600 -q
-zip -j gtfs1.zip fare_attributes.txt
-zip -j gtfs1.zip fare_rules.txt
 ```
