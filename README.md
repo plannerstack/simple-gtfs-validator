@@ -1,5 +1,9 @@
 # Simple GTFS Validator
 
+An extremely simple dependency-free Python GTFS validator. So simple it's stupid.
+
+- Allows to easily explore and write fixes for invalid GTFS
+- For a less stupid feed validation: https://github.com/google/transitfeed
 
 ## Requirements
 
